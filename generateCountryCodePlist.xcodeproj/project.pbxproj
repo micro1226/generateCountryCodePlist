@@ -14,6 +14,10 @@
 		44EE17E71D94C52E000FF4EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44EE17E51D94C52E000FF4EE /* LaunchScreen.storyboard */; };
 		44EE17F21D94C52E000FF4EE /* generateCountryCodePlistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EE17F11D94C52E000FF4EE /* generateCountryCodePlistTests.swift */; };
 		44EE17FD1D94C52E000FF4EE /* generateCountryCodePlistUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EE17FC1D94C52E000FF4EE /* generateCountryCodePlistUITests.swift */; };
+		44EE180B1D94C576000FF4EE /* CountryCodeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EE180A1D94C576000FF4EE /* CountryCodeModel.swift */; };
+		44EE180D1D94D112000FF4EE /* Directions.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 44EE180C1D94C95C000FF4EE /* Directions.geojson */; };
+		44EE180F1D95150A000FF4EE /* CountryCode.plist in Resources */ = {isa = PBXBuildFile; fileRef = 44EE180E1D95150A000FF4EE /* CountryCode.plist */; };
+		44EE18111D95230C000FF4EE /* CountryWithChinese.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 44EE18101D9520E7000FF4EE /* CountryWithChinese.geojson */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		44EE17F81D94C52E000FF4EE /* generateCountryCodePlistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = generateCountryCodePlistUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44EE17FC1D94C52E000FF4EE /* generateCountryCodePlistUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = generateCountryCodePlistUITests.swift; sourceTree = "<group>"; };
 		44EE17FE1D94C52E000FF4EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44EE180A1D94C576000FF4EE /* CountryCodeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryCodeModel.swift; sourceTree = "<group>"; };
+		44EE180C1D94C95C000FF4EE /* Directions.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = Directions.geojson; sourceTree = "<group>"; };
+		44EE180E1D95150A000FF4EE /* CountryCode.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CountryCode.plist; sourceTree = "<group>"; };
+		44EE18101D9520E7000FF4EE /* CountryWithChinese.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = CountryWithChinese.geojson; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +111,10 @@
 				44EE17E31D94C52E000FF4EE /* Assets.xcassets */,
 				44EE17E51D94C52E000FF4EE /* LaunchScreen.storyboard */,
 				44EE17E81D94C52E000FF4EE /* Info.plist */,
+				44EE180A1D94C576000FF4EE /* CountryCodeModel.swift */,
+				44EE180C1D94C95C000FF4EE /* Directions.geojson */,
+				44EE180E1D95150A000FF4EE /* CountryCode.plist */,
+				44EE18101D9520E7000FF4EE /* CountryWithChinese.geojson */,
 			);
 			path = generateCountryCodePlist;
 			sourceTree = "<group>";
@@ -235,6 +247,9 @@
 				44EE17E71D94C52E000FF4EE /* LaunchScreen.storyboard in Resources */,
 				44EE17E41D94C52E000FF4EE /* Assets.xcassets in Resources */,
 				44EE17E21D94C52E000FF4EE /* Main.storyboard in Resources */,
+				44EE180F1D95150A000FF4EE /* CountryCode.plist in Resources */,
+				44EE18111D95230C000FF4EE /* CountryWithChinese.geojson in Resources */,
+				44EE180D1D94D112000FF4EE /* Directions.geojson in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44EE180B1D94C576000FF4EE /* CountryCodeModel.swift in Sources */,
 				44EE17DF1D94C52E000FF4EE /* ViewController.swift in Sources */,
 				44EE17DD1D94C52E000FF4EE /* AppDelegate.swift in Sources */,
 			);
